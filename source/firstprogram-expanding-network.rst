@@ -330,7 +330,7 @@ The final code for the ``Main`` and ``Person`` files are as follows:
 
         val studentSchedule = (myDay, myTick)
           .add[House](0, 8)
-          .add[Office](9, 16)
+          .add[School](9, 16)
           .add[House](17, 23)
 
         registerSchedules(
